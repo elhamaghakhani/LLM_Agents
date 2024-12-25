@@ -30,10 +30,5 @@ The project workflow consists of three agents:
    - `customer_service_score`: Based on adjectives like "horrible" (1/5) or "satisfying" (4/5).
 3. **Scoring Agent:** Uses scores from the analysis to calculate a final score for the restaurant.
 
-#### Final Score Calculation
-The final score is derived using the formula:
-\[
-\text{Overall Score} = \frac{10}{N \sqrt{125}} \sum_{i=1}^N \sqrt{\text{food_score}_i^2 \times \text{customer_service_score}_i}
-\]
-Where \(N\) is the number of reviews.
+
 
