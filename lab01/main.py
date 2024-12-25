@@ -84,7 +84,7 @@ def main(user_query: str):
 
     entrypoint_agent = ConversableAgent(
         "entrypoint_agent", 
-        system_message=
+        system_message=get_entrypoint_agent_prompt(),
         llm_config=llm_config,
         function_map={"fetch_restaurant_data": fetch_restaurant_data}
         )
