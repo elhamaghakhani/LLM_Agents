@@ -1,0 +1,3 @@
+make sure the provided secret key satisfy the security requirements:
+max length <40
+could serve as strong password
